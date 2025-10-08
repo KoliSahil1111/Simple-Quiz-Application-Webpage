@@ -1,0 +1,43 @@
+body {
+  background: linear-gradient(to right, #2196f3, #0d47a1);
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quiz-container {
+  background: white;
+  color: black;
+  border-radius: 10px;
+  padding: 2rem;
+  width: 350px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+button {
+  background: #0d47a1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background: #1976d2;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  text-align: left;
+}
